@@ -1,0 +1,1 @@
+[05-Mar-2026 13:45:07 Europe/Berlin] Database error: Cannot add or update a child row: a foreign key constraint fails (`musanze_market`.`orders`, CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`)) | SQL Error: 
