@@ -19,7 +19,6 @@ Faculty of Sciences and Information Technology · Department of Computer Science
 
 ## Features
 
-- ✅ Secure login with bcrypt password hashing
 - ✅ Supplier/farmer CRUD (Create, Read, Update, Delete)
 - ✅ Order creation with multiple line items
 - ✅ Real-time total calculator (JavaScript)
@@ -48,7 +47,7 @@ musanze-market/
 │   │   ├── SupplierModel.php
 │   │   └── UserModel.php
 │   └── views/
-│       ├── auth/login.php
+│       ├── auth
 │       ├── dashboard/index.php
 │       ├── orders/{index,create,view,edit,receipt}.php
 │       ├── suppliers/{index,create,edit}.php
@@ -85,7 +84,7 @@ musanze-market/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-group/musanze-market.git
+   git clone https://github.com/henrietteirasubiza/musanze-potatoes-slip
    cd musanze-market
    ```
 
@@ -96,7 +95,7 @@ musanze-market/
    ```
 
 3. **Configure DB connection**  
-   Edit `config/database.php` and set your MySQL credentials:
+
    ```php
    define('DB_HOST', 'localhost');
    define('DB_USER', 'root');
@@ -119,22 +118,6 @@ musanze-market/
    RewriteCond %{REQUEST_FILENAME} !-d
    RewriteRule ^(.*)$ index.php [QSA,L]
    ```
-
-6. **Visit** `http://localhost/musanze-market/public/`
-
----
-
-## Default Credentials
-
-| Username | Password | Role |
-|---|---|---|
-| admin | password | Admin |
-| aggregator1 | password | Aggregator |
-
-**Change passwords immediately in production.**
-
----
-
 ## Deployment (InfinityFree)
 
 1. Create account at [infinityfree.net](https://infinityfree.net)
@@ -146,8 +129,8 @@ musanze-market/
 7. Ensure `.htaccess` is uploaded to `public/`
 
 **Hosting provider**: InfinityFree  
-**Live URL**: _(add after deployment)_  
-**GitHub repo**: _(add your repo URL)_
+**Live URL**: _https://musanzeorderslip.infinityfree.me  
+**GitHub repo**:https://github.com/henrietteirasubiza/musanze-potatoes-slip
 
 ---
 
@@ -155,10 +138,10 @@ musanze-market/
 
 | Name | Role |
 |---|---|
-| Member 1 | Role 1 — Product Planner & Documentation Lead |
-| Member 2 | Role 2 — UI/UX Designer |
-| Member 3 | Role 3 — HTML Structure Engineer |
-| Member 4 | Role 4 — CSS & Responsiveness Engineer |
-| Member 5 | Role 5 — JavaScript Interaction Engineer |
-| Member 6 | Role 6 — Backend PHP MVC Engineer |
-| Member 7 | Role 7 — Database, Git & Deployment Engineer |
+| umugaba honore | Role 1 — Product Planner & Documentation Lead |
+| yussif elisidig  | Role 2 — UI/UX Designer |
+| umugaba honore | Role 3 — HTML Structure Engineer |
+| mwiseneza kelly | Role 4 — CSS & Responsiveness Engineer |
+| iradukunda pauline | Role 5 — JavaScript Interaction Engineer |
+| ahmed fadul | Role 6 — Backend PHP MVC Engineer |
+| irasubiza henriette| Role 7 — Database, Git & Deployment Engineer |
