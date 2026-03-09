@@ -29,7 +29,6 @@ The **Musanze Market Order Slip System** digitizes this workflow, creating a rel
 
 | # | As a... | I want to... | So that... |
 |---|---|---|---|
-| US-01 | Aggregator | Log in securely | Only authorized users access the system |
 | US-02 | Aggregator | Register a new supplier | I have their details on record before creating orders |
 | US-03 | Aggregator | Create an order slip with multiple items | All quantities and prices are recorded accurately |
 | US-04 | System | Auto-compute line totals and grand total | No manual arithmetic errors occur |
@@ -61,7 +60,6 @@ The **Musanze Market Order Slip System** digitizes this workflow, creating a rel
 ## Scope
 
 ### In Scope
-- User authentication (login/logout)
 - Supplier/farmer CRUD
 - Order creation with multiple line items
 - Auto-computed totals (JS + server)
