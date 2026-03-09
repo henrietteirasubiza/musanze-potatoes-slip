@@ -4,7 +4,6 @@
 
 | # | Test Case | Expected Result | Status |
 |---|---|---|---|
-
 | T-01 | Register supplier with all required fields | Supplier saved, success message, appears in list | ✅ Pass |
 | T-02 | Register supplier without phone number | Form error: "Phone number is required" | ✅ Pass |
 | T-03 | Create order with two items, valid data | Order saved, redirected to detail view with correct total | ✅ Pass |
